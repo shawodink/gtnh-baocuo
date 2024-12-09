@@ -1,0 +1,95 @@
+[22:04:58] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[22:05:50] [Server thread/INFO]: Loading properties
+[22:05:50] [Server thread/INFO]: Default game type: SURVIVAL
+[22:05:50] [Server thread/INFO]: Generating keypair
+[22:05:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:05:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:05:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:05:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:05:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:07:46] [Server thread/INFO]: Preparing level "World"
+[22:07:49] [Server thread/INFO]: Preparing start region for level 0
+[22:07:50] [Server thread/INFO]: Preparing spawn area: 51%
+[22:07:51] [Server thread/INFO]: Done (5.469s)! For help, type "help" or "?"
+[22:07:59] [Server thread/INFO]: Reloaded default quest database
+[22:08:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2852ms behind, skipping 57 tick(s)
+[22:08:30] [Server thread/INFO]: zfaccpozj[/192.168.10.127:54551] logged in with entity id 1256 at (3670.5, 35.1, 2189.5)
+[22:08:30] [Server thread/INFO]: zfaccpozj joined the game
+[22:08:32] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.NullPointerException: Cannot invoke "net.minecraftforge.common.util.ForgeDirection.ordinal()" because "this.EtchedNagastoneNorth" is null
+	at RFB-Launch//twilightforest.structures.courtyard.ComponentTFNagaCourtyardWall.func_74875_a(ComponentTFNagaCourtyardWall.java:576) ~[ComponentTFNagaCourtyardWall.class:?]
+	at RFB-Launch//net.minecraft.world.gen.structure.StructureStart.func_75068_a(StructureStart.java:44) ~[avm.class:?]
+	at RFB-Launch//net.minecraft.world.gen.structure.MapGenStructure.func_75051_a(MapGenStructure.java:93) ~[ave.class:?]
+	at RFB-Launch//twilightforest.world.ChunkProviderTwilightForest.func_73153_a(ChunkProviderTwilightForest.java:950) ~[ChunkProviderTwilightForest.class:?]
+	at RFB-Launch//net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:279) ~[ms.class:?]
+	at RFB-Launch//net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1055) ~[apx.class:?]
+	at RFB-Launch//net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:52) ~[ChunkIOProvider.class:?]
+	at RFB-Launch//net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:12) ~[ChunkIOProvider.class:?]
+	at RFB-Launch//net.minecraftforge.common.util.AsynchronousExecutor$Task.finish(AsynchronousExecutor.java:189) ~[AsynchronousExecutor$Task.class:?]
+	at RFB-Launch//net.minecraftforge.common.util.AsynchronousExecutor.finishActive(AsynchronousExecutor.java:354) ~[AsynchronousExecutor.class:?]
+	at RFB-Launch//net.minecraftforge.common.chunkio.ChunkIOExecutor.tick(ChunkIOExecutor.java:30) ~[ChunkIOExecutor.class:?]
+	at RFB-Launch//net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:596) ~[MinecraftServer.class:?]
+	at RFB-Launch//net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) ~[lt.class:?]
+	at RFB-Launch//net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) ~[MinecraftServer.class:?]
+	at RFB-Launch//net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at RFB-Launch//net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[22:08:32] [Server thread/ERROR]: This crash report has been saved to: C:\Users\Administrator\Desktop\GTNH\GT_New_Horizons_2.6.1_Server_Java_17-21\.\crash-reports\crash-2024-12-09_22.08.32-server.txt
+[22:08:32] [Server thread/INFO]: Stopping server
+[22:08:32] [Server thread/INFO]: Saving players
+[22:08:32] [Server thread/INFO]: Saving worlds
+[22:08:32] [Server thread/INFO]: Saving chunks for level 'World'/Overworld
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Nether
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/The End
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Seth
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Horus
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Anubis
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Maahes
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Neper
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Miranda
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/T Ceti E
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Vega B
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Haumea
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Barnarda F
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Barnarda E
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Outer Lands
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Saturn
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Neptune
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Jupiter
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Mirror
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Pocket Plane
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Ross128b
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Ross128ba
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Bedrock
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Torment
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Spirit World
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Uranus
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/The Outer Lands
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Pluto
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Triton
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Proteus
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Oberon
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Callisto
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Titan
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Ganymede
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Ceres
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Enceladus
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Deimos
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Venus
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Phobos
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Mercury
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/dimensionDarkWorld
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Io
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Europa
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Kuiper Belt
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Barnarda C
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/α Centauri Bb
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Asteroids
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Mars
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Moon
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Makemake
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/The Last Millenium
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Twilight Forest
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Underdark
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Space Station 3
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/SpectreWorld
+[22:08:33] [Server thread/INFO]: Saving chunks for level 'World'/Mehen Belt
